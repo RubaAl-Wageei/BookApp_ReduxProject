@@ -1,0 +1,87 @@
+.body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background: url("/src/pages/Register/Register.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+#form {
+
+  width: 39rem;
+  height: 75vh;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1em;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  align-content: stretch;
+  margin: 0px 10px;
+
+}
+
+#h2 {
+
+  color: #ffc800;
+  text-align: center;
+  margin-top: 1.5em;
+    font-size: 2em;
+
+}
+
+
+#input {
+
+  border: none;
+  width: 99%;
+  height: 2em;
+  border-bottom: 0.1em solid#ffc800;
+  background: none;
+  padding: 0.8em;
+  color: #ffffff;
+}
+
+#p1 {
+  color: #ff0000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#p2 {
+
+  height: 2em;
+
+  background: none;
+  padding: 0.6em;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.qqq {
+  width: 75%;
+}
+
+#inputButtonRegister {
+
+  width: 10.1em;
+  height: 3.18em;
+  background: #ffc800;
+  border: none;
+  color: #fff;
+  border-radius: 0.9em;
+  font-size: .9em;
+}
+
+#inputButtonRegister:hover {
+  background: #fff;
+  color: #ffc800;
+  cursor: pointer;
+
+}
