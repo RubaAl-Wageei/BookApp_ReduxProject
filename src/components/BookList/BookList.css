@@ -40,6 +40,11 @@
     font-size: 14px;
 }
 
+.btn {
+    background-color: #ffc800;
+    border-color: #ffc800;
+}
+
 @media screen and (min-width: 600px){
     .booklist-content{
         grid-template-columns: repeat(2, 1fr);

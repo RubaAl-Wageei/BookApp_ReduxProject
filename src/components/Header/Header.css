@@ -1,6 +1,6 @@
 .header-content{
     min-height: 78vh;
-    background: linear-gradient(rgba(92, 92, 92, 0.3), rgba(70, 70, 70, 0.5)), url("../../images/cover1.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(92, 92, 92, 0.3), rgba(70, 70, 70, 0.5)), url("../../images/cover.jpg") center/cover no-repeat;
     flex-direction: column;
 }
 .header-title{
