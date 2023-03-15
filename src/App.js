@@ -15,13 +15,13 @@ import EditProfile from './pages/Profile/EditProfile';
 
 function App() {
   return (
-    <>
+    <div>
 
       <Routes>
         <Route path = "/" element = {<Home />}>
-          <Route path = "about" element = {<About />} />
-          <Route path = "book" element = {<BookList />} />
-          <Route path = "createBook" element = {<CreateBook />} />
+          <Route path = "/about" element = {<About />} />
+          <Route path = "/book" element = {<BookList />} />
+          <Route path = "/createBook" element = {<CreateBook />} />
           <Route path = "/book/:id" element = {<BookDetails />} />
           <Route path = "/editBook/:id" element = {<EditBook />} />
         </Route>
@@ -33,7 +33,7 @@ function App() {
         
       </Routes>
   
-    </>
+    </div>
   );
 }
 

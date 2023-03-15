@@ -28,7 +28,7 @@ export default function Profile() {
 }
 
   return (
-    <>
+    <div>
     {dataUsers.map((users,index)=>{
 
 return <div key={index}>
@@ -55,19 +55,7 @@ return <div key={index}>
               </div>
             </div>
           </div>
-          <div className="projects">
-            <h3>Books</h3>
-            <div className="projects_data">
-              <div className="data">
-                <h4>Recent</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div className="data">
-                <h4>Most Viewed</h4>
-                <p>dolor sit amet.</p>
-              </div>
-            </div>
-          </div>
+          
           <div className="social_media">
             <ul>
               <li><a href={`/profile/${users.id}/edit`}><i className="fab fa-facebook-f" />edit</a></li>
@@ -80,6 +68,6 @@ return <div key={index}>
       </div>
       </div>
         })}
-    </>
+    </div>
   )
 }
